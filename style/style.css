@@ -1,0 +1,158 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+html,body{
+
+    height: 100%;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    background: #FAFAFA;
+}
+img{
+    vertical-align: top;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+p{
+    font-size: inherit;
+    font-weight: inherit;
+}
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    max-width: 1046px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+
+} 
+.header{
+    background: url(/Relvise/img/background\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu{
+    min-height: 104px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.menu-logo{
+    margin-right: 132px;
+}
+.menu-logo a{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 133%;
+    letter-spacing: 0.1px;
+    color: #252b42;
+}
+.menu-nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-items{
+    margin-right: 21px;
+}
+.nav-items:last-child{
+    margin: 0;
+}
+.nav-link{
+    font-weight: 600;
+    line-height: 171%;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.header-info{
+    margin-top: 80px;
+}
+.header-info__title{
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 128%;
+    letter-spacing: 0.2px;
+    color: #252b42;
+    max-width: 396px;
+}
+.header-info__text{
+    margin-top: 35px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+    color: #737373;
+    max-width: 376px;
+}
+.header-info__btns{
+    margin-top: 35px;
+   
+    display: flex;
+}
+ .header-info__btns a.btn_a{
+    border: 1px solid #0d5c63;
+    border-radius: 37px;
+    padding: 0 35px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 187px;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: #0d5c63;
+    margin-right: 10px;
+}
+.btn_a:hover{
+    color: orange;
+}
+.container2{
+    margin: 0 auto;
+    flex-direction: column;
+align-items: flex-start;
+padding: 35px 40px;
+    display: flex;
+width: 1046px;
+height: 242px;
+
+}
+.blockfly{
+    position: absolute;
+    width: 1046px;
+    height: 242px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    
+}
+.block1{
+    width:328px ;
+    height: 242px;
+background: white;
+}
+.block2{
+    width:328px ;
+    height: 242px;
+background: white;
+}
+.block3{
+    width:328px ;
+    height: 242px;
+background: #0D5C63;
+}
